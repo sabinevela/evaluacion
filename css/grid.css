@@ -1,0 +1,65 @@
+.container {
+    margin-top: 1.5rem; 
+  }
+  
+  .rectangulo {
+    border-radius: 8px;
+    padding: 1rem; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-weight: bold; 
+    color: white; 
+  }
+  
+  .grande {
+    height: 300px; 
+    background-color: rgb(109, 73, 175); 
+    border: 2px solid #f8f8f8; 
+  }
+  
+  .pequeno {
+    height: 140px; 
+  }
+  
+  .pequeno:nth-child(1) {
+    background-color: rgb(93, 93, 233); 
+    border: 2px solid #ffffff; 
+  }
+  
+  .pequeno:nth-child(2) {
+    background-color: #3dadd3; 
+    border: 2px solid #fafafa; 
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem; 
+  }
+  .footer {
+    background-color: #9da5ad; 
+    padding: 20px 0; 
+    text-align: center; 
+    
+  }
+  
+  .footer .footer-imagen {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  
+  .footer .text-center {
+    display: inline-block; 
+    margin: 10px; 
+  }
+
+  .texto-1{
+    text-align: center;
+  }
+
+  .texto-inicio{
+    text-align: center;
+    font-family: "Playwrite PE", cursive;
+    
+  }
+
